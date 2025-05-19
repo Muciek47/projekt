@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafika komputerowa w dobie AI</title>
+    <link rel="shortcut icon" href="../img/icon.png">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="scroll-effect">
+            </div>
+            <header>
+                <h1>Grafika komputerowa w dobie AI</h1>
+                <nav>
+                    <button onclick="navigate('start')">Start</button>
+                    <button onclick="navigate('ai')">AI w grafice komputerowej</button>
+                    <button onclick="navigate('symulacje')">Symulacje i ich rola</button>
+                    <button onclick="navigate('vr')">Wirtualna rzeczywistość (VR)</button>
+                    <button onclick="navigate('metaverse')">Metaverse</button>
+                </nav>
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide"><img src="../img/AI.png" alt="Grafika AI"></div>
+                        <div class="slide"><img src="../img/VR.png" alt="Grafika VR"></div>
+                        <div class="slide"><img src="../img/merverse.png" alt="Grafika Metaverse"></div>
+                    </div>
+                </div>
+            </header>
+            <section class="intro">
+                <div class="intro-content">
+                    <h2>Jak działają symulacje fizyczne?</h2>
+                    <p>W nowoczesnych silnikach gier i narzędziach filmowych stosuje się zaawansowane algorytmy, które odwzorowują ruchy ciał zgodnie z zasadami fizyki. ✔️ Dynamika ciał sztywnych – realistyczne zachowanie obiektów po kolizji, np. przewracające się skrzynie w grze. ✔️ Symulacja cieczy i gazów – płynne ruchy wody, dymu czy ognia, np. realistyczne fale w Unreal Engine. ✔️ Ragdoll physics – naturalne zachowanie ciała postaci po uderzeniu lub upadku. ✔️ Interakcja z otoczeniem – zniszczenia budynków, zachowanie materiałów pod wpływem sił zewnętrznych.</p>
+                    <h2>Najważniejsze technologie</h2>
+                    <p>💻 Unreal Engine – Jeden z najpopularniejszych silników, wykorzystujący zaawansowane symulacje fizyczne, np. system Chaos Physics dla realistycznych zniszczeń. 💨 NVIDIA PhysX – Zaawansowany system fizyki wspomagany przez GPU, stosowany w grach do realistycznego odwzorowania cząsteczek i kolizji. 🔩 Havok – Silnik fizyki używany w wielu grach AAA, np. w serii Assassin’s Creed, GTA czy The Elder Scrolls.</p>
+                    <h2>Jakie korzyści daje zaawansowana fizyka?</h2>
+                    <p>✅ Realistyczna rozgrywka – Gry stają się bardziej immersyjne dzięki realistycznym reakcjom świata na działania gracza. ✅ Dynamiczne efekty w filmach – Tworzenie zjawisk naturalnych, jak burze, eksplozje czy ruchy tkanin, bez potrzeby ręcznej animacji. ✅ Lepsza interaktywność – Gry pozwalają na większą swobodę i eksperymentowanie z mechanikami fizycznymi.</p>
+                </div>
+            </section>
+            <section class="timelinee">
+                <h1>Przykłady hiperrealistycznych efektów w Hollywood</h1>
+                <div class="timeline">
+                    <div class="event" onclick="showDetails(0)">
+                        <h3>Cyfrowa rekonstrukcja aktorów</h3>
+                        <p class="details">Filmy takie jak Rogue One: A Star Wars Story przywróciły postacie jak Grand Moff Tarkin dzięki technologii CGI, tworząc niesamowicie realistyczne wersje nieżyjących aktorów.</p>
+                    </div>
+                    <div class="event" onclick="showDetails(1)">
+                        <h3>Motion capture na najwyższym poziomie</h3>
+                        <p class="details">Avatar Jamesa Camerona wykorzystał zaawansowany performance capture, aby oddać mimikę i ruch postaci CGI z niespotykaną dokładnością.</p>
+                    </div>
+                    <div class="event" onclick="showDetails(2)">
+                        <h3>Fotorealistyczne światy</h3>
+                        <p class="details">Produkcje takie jak Blade Runner 2049 czy The Lion King (2019) udowodniły, że wirtualne krajobrazy mogą być nie do odróżnienia od rzeczywistości.</p>
+                    </div>
+                    <div class="event" onclick="showDetails(3)">
+                        <h3>Deepfake w kinie</h3>
+                        <p class="details">AI umożliwia realistyczne manipulowanie twarzami aktorów, np. w The Irishman, gdzie twarze aktorów zostały cyfrowo odmłodzone.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="intro">
+                <div class="intro-content">
+                    <h2>Medycyna – AI ratuje życie</h2>
+                    <p>AI pomaga lekarzom w diagnozowaniu chorób, opracowywaniu leków i personalizowanej opiece zdrowotnej: ✅ Diagnostyka obrazowa – Modele AI analizują zdjęcia RTG, tomografię i rezonans magnetyczny, wykrywając np. guzy i choroby serca. ✅ Tworzenie leków – Algorytmy przewidują, które związki chemiczne mogą być skuteczne w leczeniu chorób, przyspieszając proces badań. ✅ Roboty chirurgiczne – Systemy wspomagające operacje, np. robot Da Vinci, pozwalają na większą precyzję przy zabiegach. ✅ Analiza genomu – AI pomaga w identyfikacji mutacji genetycznych, umożliwiając personalizowane leczenie chorób.</p>
+                    <h2>Lotnictwo – AI podnosi bezpieczeństwo</h2>
+                    <p>Sztuczna inteligencja wspiera pilotaż, zarządzanie ruchem lotniczym i symulacje: ✈️ Automatyczne systemy kontroli lotu – AI wspomaga autopiloty, poprawiając nawigację i reakcję na nagłe zdarzenia. 📡 Analiza danych meteorologicznych – AI przewiduje turbulencje, burze i optymalne trasy lotów. 🎮 Symulacje dla pilotów – Trening w wirtualnym środowisku pozwala pilotom ćwiczyć reakcje na awaryjne sytuacje. 🚀 Projektowanie nowych maszyn – AI wspomaga inżynierów w tworzeniu bardziej aerodynamicznych i oszczędnych konstrukcji.</p>
+                </div>
+            </section>
+            <section class="timelinee">
+                <h1>Jakie technologie stoją za tymi efektami?</h1>
+                <div class="timeline">
+                    <div class="event" onclick="showDetails(4)">
+                        <h3>CGI (Computer-Generated Imagery)</h3>
+                        <p class="details">Generowanie hiperrealistycznych obrazów i animacji z wykorzystaniem Ray Tracing, Physically-Based Rendering i AI-enhanced rendering.</p>
+                    </div>
+                    <div class="event" onclick="showDetails(5)">
+                        <h3>Motion Capture & AI-enhanced Animation</h3>
+                        <p class="details">Używane w produkcjach takich jak The Lord of the Rings czy gry AAA (np. Cyberpunk 2077), aby uchwycić realistyczne ruchy postaci.</p>
+                    </div>
+                    <div class="event" onclick="showDetails(6)">
+                        <h3>NVIDIA Omniverse & Unreal Engine</h3>
+                        <p class="details">Narzędzia pozwalające na tworzenie rzeczywistych środowisk wirtualnych stosowanych w filmach i serialach.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafika komputerowa w dobie AI</title>
+    <link rel="shortcut icon" href="../img/icon.png">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="scroll-effect">
+            </div>
+            <header>
+                <h1>Grafika komputerowa w dobie AI</h1>
+                <nav>
+                    <button onclick="navigate('start')">Start</button>
+                    <button onclick="navigate('ai')">AI w grafice komputerowej</button>
+                    <button onclick="navigate('symulacje')">Symulacje i ich rola</button>
+                    <button onclick="navigate('vr')">Wirtualna rzeczywistość (VR)</button>
+                    <button onclick="navigate('metaverse')">Metaverse</button>
+                </nav>
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide"><img src="../img/AI.png" alt="Grafika AI"></div>
+                        <div class="slide"><img src="../img/VR.png" alt="Grafika VR"></div>
+                        <div class="slide"><img src="../img/merverse.png" alt="Grafika Metaverse"></div>
+                    </div>
+                </div>
+            </header>
+            <section class="intro">
+                <div class="intro-content">
+                    <h2>Rewolucja AI w generowaniu treści 🎨🤖</h2>
+                    <p>Sztuczna inteligencja zrewolucjonizowała sposób, w jaki tworzymy obrazy, teksty, muzykę i filmy. Dzięki algorytmom takim jak GAN (Generative Adversarial Networks), DALL-E, Stable Diffusion czy Midjourney, możliwości artystyczne i kreatywne stały się dostępne jak nigdy wcześniej.</p>
+                    <h2>Jak AI zmienia świat kreatywności?</h2>
+                    <p>✅ Sztuka dostępna dla każdego – Teraz każdy może tworzyć obrazy, niezależnie od umiejętności malarskich. ✅ Automatyzacja projektowania – AI przyspiesza tworzenie grafik, projektów i koncepcji wizualnych. ✅ Eksperymentowanie ze stylami – Można generować dzieła w stylu Picassa, Van Gogha czy cyberpunku. ✅ Nowe wyzwania dla artystów – Debata o etyce, oryginalności i prawach autorskich nabiera znaczenia.</p>
+                </div>
+            </section>
+            <section class="timelinee">
+                <h1>Jak działa generowanie treści przez AI?</h1>
+                <div class="timeline">
+                    <div class="event" onclick="showDetails(0)">
+                        <h3>GAN (Generative Adversarial Networks)</h3>
+                        <p class="details">Sieci rywalizujące: jedna tworzy obraz, druga ocenia jego jakość. Przykładem może być DeepArt czy StyleGAN.</p>
+                    </div>
+                    <div class="event" onclick="showDetails(1)">
+                        <h3>DALL-E</h3>
+                        <p class="details">Model od OpenAI, który na podstawie tekstowego opisu generuje obrazy – od realistycznych po abstrakcyjne.</p>
+                    </div>
+                    <div class="event" onclick="showDetails(2)">
+                        <h3>Stable Diffusion</h3>
+                        <p class="details">Otwartoźródłowy model generowania obrazów, który pozwala na dużą kontrolę nad efektem końcowym.</p>
+                    </div>
+                    <div class="event" onclick="showDetails(3)">
+                        <h3>Midjourney</h3>
+                        <p class="details">Narzędzie skupione na artystycznych stylach, często wykorzystywane do tworzenia cyfrowych dzieł sztuki.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="intro">
+                <div class="intro-content">
+                    <h2>Najważniejsze technologie używane w automatyzacji projektowania</h2>
+                    <p>✅ Usuwanie tła – Narzędzia oparte na AI, takie jak Remove.bg, pozwalają na szybkie wycięcie obiektów z obrazów bez potrzeby ręcznej edycji. ✅ Koloryzacja zdjęć – Algorytmy, takie jak DeOldify, potrafią realistycznie koloryzować stare fotografie, ożywiając archiwalne obrazy. ✅ Retusz i poprawki – Automatyczne filtry usuwają niedoskonałości skóry, poprawiają kolory i balans światła. ✅ Generowanie projektów – AI wspomaga tworzenie logo, układów stron czy wizualizacji, dostosowując projekty do użytkownika.</p>
+                    <h2>Jakie korzyści daje automatyzacja w projektowaniu?</h2>
+                    <p>💡 Oszczędność czasu – Grafika czy edycja zdjęć, które kiedyś zajmowały godziny, teraz mogą być gotowe w kilka sekund. 🎨 Lepsza dostępność – Każdy, nawet bez umiejętności profesjonalnej edycji, może korzystać z zaawansowanych technologii. 🤖 Nowe możliwości twórcze – Sztuczna inteligencja pozwala eksperymentować ze stylami i efektami wcześniej trudnymi do uzyskania.</p>
+                </div>
+            </section>
+            <section class="intro">
+                <div class="intro-content">
+                    <h2>Deepfake – Moc manipulacji obrazem i dźwiękiem</h2>
+                    <p>Deepfake to technika wykorzystująca sieci neuronowe, aby tworzyć realistyczne filmy i nagrania audio osób, które nigdy nie wypowiadały danych słów czy nie wykonywały określonych czynności. ✅ Zastosowania pozytywne – Tworzenie efektów w filmach, digitalizacja aktorów czy rekonstrukcja historycznych postaci. ❌ Zagrożenia – Fake news, oszustwa, podważanie zaufania do materiałów wideo, np. w polityce czy sprawach sądowych.</p>
+                    <h2>AI a prawa autorskie – Kto jest autorem dzieła?</h2>
+                    <p>AI może generować obrazy, muzykę czy teksty, ale czyje prawa obowiązują? 📌 Czy AI może być uznana za autora? Obecnie prawa autorskie dotyczą ludzi, więc właścicielem utworu jest osoba, która zleciła wygenerowanie treści. 📌 Problematyczne przypadki – Jeśli AI wygeneruje utwór podobny do dzieła istniejącego artysty, czy to plagiat? 📌 Nowe regulacje? Debatuje się nad tym, jak uregulować tworzenie przez AI, aby chronić prawa twórców.</p>
+                    <h2>Jak rozwiązać te problemy?</h2>
+                    <p>💡 Rozwój narzędzi do wykrywania deepfake – Google, Microsoft i inne firmy pracują nad sposobami na odróżnienie prawdziwego nagrania od manipulacji. 📜 Nowe przepisy dotyczące AI – Kraje takie jak USA i UE analizują, jak regulować sztuczną inteligencję, aby ograniczyć nadużycia. 🤝 Świadomość społeczeństwa – Kluczowe jest edukowanie ludzi na temat zagrożeń i metod identyfikacji fałszywych treści.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

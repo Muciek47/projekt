@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafika komputerowa w dobie AI</title>
+    <link rel="shortcut icon" href="img/icon.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="scroll-effect">
+            </div>
+            <header>
+                <h1>Grafika komputerowa w dobie AI</h1>
+                <nav>
+                    <button onclick="navigate('start')">Start</button>
+                    <button onclick="navigate('ai')">AI w grafice komputerowej</button>
+                    <button onclick="navigate('symulacje')">Symulacje i ich rola</button>
+                    <button onclick="navigate('vr')">Wirtualna rzeczywistość (VR)</button>
+                    <button onclick="navigate('metaverse')">Metaverse</button>
+                </nav>
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide"><img src="img/AI.png" alt="Grafika AI"></div>
+                        <div class="slide"><img src="img/VR.png" alt="Grafika VR"></div>
+                        <div class="slide"><img src="img/merverse.png" alt="Grafika Metaverse"></div>
+                    </div>
+                </div>
+            </header>
+            <section class="intro">
+                <div class="intro-content">
+                    <h2>Witaj w świecie grafiki komputerowej opartej na AI!</h2>
+                    <p>Sztuczna inteligencja rewolucjonizuje grafikę komputerową, otwierając przed nami nieskończone możliwości twórcze. Odkryj, jak technologia zmienia podejście do projektowania, edycji i generowania obrazów.</p>
+                </div>
+            </section>
+            <section class="timelinee">
+                <h1>Ewolucja Technologii</h1>
+                <div class="timeline">
+                    <div class="event" onclick="showDetails(0)">
+                        <h3>1969 - Początek Internetu</h3>
+                        <p class="details">ARPANET powstaje jako fundament dla dzisiejszego internetu.</p>
+                    </div>
+                    <div class="event" onclick="showDetails(1)">
+                        <h3>1983 - Powstanie TCP/IP</h3>
+                        <p class="details">Protokół komunikacji sieciowej staje się standardem internetu.</p>
+                    </div>
+                    <div class="event" onclick="showDetails(2)">
+                        <h3>2007 - Era Smartfonów</h3>
+                        <p class="details">iPhone rewolucjonizuje rynek mobilnych technologii.</p>
+                    </div>
+                    <div class="event" onclick="showDetails(3)">
+                        <h3>2023 - Wzrost AI</h3>
+                        <p class="details">Sztuczna inteligencja staje się kluczowa w wielu branżach.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
